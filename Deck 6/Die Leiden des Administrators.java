@@ -25,9 +25,9 @@
                     turn = richtung - 3;
                     richtung = 3;
                     break;
-                case 'p':
+            /*    case 'p':
                     pickUp();
-                    break;
+                    break;*/
                 case 't':
                     int t = M.charAt(i + 1) - '0';
                     turn = richtung - (t);
