@@ -70,3 +70,4 @@
             BruchB = M.length();
 
         }
+ }
