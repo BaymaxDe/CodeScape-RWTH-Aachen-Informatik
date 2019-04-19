@@ -1,5 +1,5 @@
 # CodeScape-RWTH-Aachen-Informatik
-# CodeScape- #Informatik für Maschinenbauer# Eine Lösung für das Spiel CodeSpace.
+# CodeScape- #Informatik für Maschinenbauer# Eine Lösung für das Spiel CodeScape.
 *Ich hab darüm gekümmert, dass ich nur ein einziges Programm(Code) verwende, um alle Aufgaben zu lösen.
 *Bei allen Aufgaben habe ich die geringste Menge an Befehle verwendet. Ich bin offen für Kritik und Verbesserung der Lösung.  *Bedeutungen der Variablen:
 1) String M: ist der Move-String, darin wird die Route und die Bewegungen vom Roboter geschrieben.
