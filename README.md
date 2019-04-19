@@ -9,7 +9,7 @@ a) u=up,d=down,l=left,r=right,R=Read,w=write,c=check,t=turn,p=pick,b=warte bis d
 
 *bei u,d,r,l braucht man die Drehung nicht einzugeben. Der Roboter kennt seine eigene Richtung und weißt, wir er sich drehen soll,    um diese Bewegung in der entsprechenden Richtung auszuführen.
 
-*u1: bewegung nach Oben um eine Stelle, r9: Bewegung nach rechts um 9 Stellen.(egal wir der Roboter gerichtet ist) 
+*u1: bewegung nach Oben um eine Stelle, r9: Bewegung nach rechts um 9 Stellen.(egal wie der Roboter gerichtet ist) 
 
 **Nach jeder Buchstabe soll eine Nummer bzw.ein Zeichen stehen, damit der Roboter den Code überhaupt versteht. ZB. u1r3p0R0, obwohl die Zahl 0 nach dem p und R nichts macht aber, um die Verständlichkeit des Move-Strings für den Roboter zu sichern brauchen wir diese Zahl oder irgendein anderes Zeichen. 
 
