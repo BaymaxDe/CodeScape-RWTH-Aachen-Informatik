@@ -14,6 +14,9 @@ a) u=up,d=down,l=left,r=right,R=Read,w=write,c=check,t=turn,p=pick,b=warte bis d
 **Nach jeder Buchstabe soll eine Nummer bzw.ein Zeichen stehen, damit der Roboter den Code überhaupt versteht. ZB. u1r3p0R0, obwohl die Zahl 0 nach dem p und R nichts macht aber, um die Verständlichkeit des Move-Strings für den Roboter zu sichern brauchen wir diese Zahl oder irgendein anderes Zeichen. 
 
 2)int BruchB: Bruchbedingung= dies is gleich der Länge des Move-Strings, d.h wenn der Roboter über die ganze Route gefahren ist, dann endet hier seine Bewegung. 
+
 **Beachte mal, dass im Laufe des Programms, diese Bruchbedingung geändert werden kann, weil der Roboter manchmal wärend des Ausfürens vom Programm neue Route fahren soll, die nicht vorhersehbar waren.
+
 3)int richtung: die Richtung vom Roboter, 1 ist Norden,2 ist Westen, 3 ist Süden, 0 ist Osten. 
+
 4) int Bewegung= wie viele Stellen muss er fahren.  Ich würde gerne weitere Erklärungen schreiben, aber ich weiß es nicht, was unklar sein könnte. 
