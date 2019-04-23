@@ -1,8 +1,8 @@
- public void run() {
+public void run() {
         String word = "";
         String pass = "";
         //{u,d,l,r,t,c,R,w,b,p,o}
-        String M = "r3l1r1l1r1l1r1l1r3p0u1p0d1r1";
+        String M = "r3b0";
         int turn = 0, bewegung = 0, richtung = 0, BruchB = M.length(), i = 0, k = 0;
 
         while (i < BruchB) {
@@ -49,10 +49,11 @@
                  else
                     M+="y0";
                  break;*/
-            /* case 'b':
-                 while(!isMovePossible())
-                 rest();
-                 break;*/
+               case 'b':
+                 if(!isMovePossible())
+                 M+="l1r1b0";
+                 else
+                 M+="r2p0u1p0d1r1";
 
             }
             if (job == 'r' || job == 'l' || job == 'd' || job == 'u')
@@ -67,4 +68,3 @@
 
         }
     }
-
