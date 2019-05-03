@@ -1,8 +1,9 @@
 public void run() {
         String word = "";
         String pass = "";
+        int [] arr = new int [6];
         //{u,d,l,r,t,c,R,w,b,p,o}
-        String M = "u1r2t1R0d2r2t1w0r1u1r1";
+        String M = "r1t1R0r2t1R0r2t1R0r1d3l1t1R0l2t1R0l2t1R0l1t1w0l1";
         int turn = 0, bewegung = 0, richtung = 0, BruchB = M.length(), i = 0, k = 0;
 
         while (i < BruchB) {
@@ -26,34 +27,17 @@ public void run() {
                     turn = richtung - 3;
                     richtung = 3;
                     break;
-            /*  case 'p':
-                  pickUp();
-                    break;*/
                 case 't':
                     int t = M.charAt(i + 1) - '0';
                     turn = richtung - (t);
                     richtung = t;
                     break;
                 case 'R':
-                    word = read();
-                    for (int N = word.length() - 1; N >= 0; N--)
-                        pass += word.charAt(N);
+                    arr[k] = read();
                     break;
                 case 'w':
-                    write(pass);
-                    k++;
+                    write(Arrays.toString(arr));
                     break;
-            /* case 'c':
-                 if(word.equals("R"))
-                    M+="y2";
-                 else
-                    M+="y0";
-                 break;*/
-            /* case 'b':
-                 while(!isMovePossible())
-                 rest();
-                 break;*/
-
             }
             if (job == 'r' || job == 'l' || job == 'd' || job == 'u')
                 bewegung = M.charAt(i + 1) - '0';
@@ -63,6 +47,7 @@ public void run() {
             for (int j = 0; j < bewegung; j++)
                 move();
             i += 2;
+            k++;
             BruchB = M.length();
 
         }
