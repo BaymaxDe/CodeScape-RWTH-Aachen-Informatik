@@ -34,6 +34,7 @@ public void run() {
                     break;
                 case 'R':
                     arr[k] = read();
+                    k++;
                     break;
                 case 'w':
                     write(Arrays.toString(arr));
@@ -47,7 +48,6 @@ public void run() {
             for (int j = 0; j < bewegung; j++)
                 move();
             i += 2;
-            k++;
             BruchB = M.length();
 
         }
