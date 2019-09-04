@@ -9,7 +9,7 @@
                                 //sollte diese bewegung ihm nicht nach vorne bringen
                                 //dann wird die Richtung beim nächsten Schritt gändert (schaue mal unten)
         int thisPos = 2;//die aktuelle Position, diese wird nur dann aktualisiert wenn er sich fortbewegt
-                        //wenn er eine stelle rückwerts fährt für dise variable nicht um -1 geändert
+                        //wenn er eine stelle rückwerts fährt wird dise variable nicht um -1 reduziert
                         //sondern er wird noch mal streben zu dieser position zu kommen
         int lastPos = 1;// Die ltzte Position ìst immer gleich thisPos-1
         int turn = 0, bewegung = 0, richtung = 0, BruchB = M.length(), i = 0;
