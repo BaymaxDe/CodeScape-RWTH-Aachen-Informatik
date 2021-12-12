@@ -1,3 +1,4 @@
+throwra236@gmail.com
 # CodeScape-RWTH-Aachen-Informatik
 # CodeScape- #Informatik für Maschinenbauer# Eine Lösung für das Spiel CodeScape.
 *Ich hab mich darüm gekümmert, dass ich nur ein einziges Programm(Code) verwende, um alle Aufgaben zu lösen.
